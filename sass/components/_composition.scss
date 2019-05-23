@@ -1,0 +1,14 @@
+
+
+.composition {
+    position: relative;
+    
+   &__photo{
+     width: 100%;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+    border-radius: 2px;
+    position: absolute;
+  
+  }
+ }
+

@@ -1,0 +1,51 @@
+
+    #navigation {
+	    background: transparent;
+        padding: 1rem;
+	    z-index: 1000;
+	    width: 100%;
+        margin: auto;
+        position: fixed;
+        box-shadow: 5px solid #f1f1f1;
+        
+    }
+    #navigation li {
+        padding: 0 20px;
+    
+	}
+	#navigation li a {
+        display: block;
+        font-weight: 700;
+        font-size: 2rem;
+	    color: #F5F5F5 !important;
+    	text-transform: uppercase;
+  
+	}
+
+    .header {
+        height: 98vh;
+        background-image: linear-gradient(to right bottom,rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)),url(../img/nat3.JPG);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+
+    &__logo-box {
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
+    }
+    &__logo {
+        height: 3rem;
+    }
+    
+    &__text-box{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}
+
