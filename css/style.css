@@ -65,7 +65,7 @@ body {
   margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: 1rem;
     animation-name: moveInLeft;
@@ -80,21 +80,21 @@ body {
     animation: moveInRight 1s ease-out; }
 
 .heading-secondary {
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: all .2s; }
   .heading-secondary:hover {
     transform: skewY(1deg) skewX(2deg) scale(1.1); }
 
 .heading-text-sub {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   color: lightgreen; }
 
@@ -111,6 +111,15 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -23vh; }
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.JPG);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -8rem; }
+  .section-features > * {
+    transform: skewY(7deg); }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -180,7 +189,28 @@ body {
     width: 100%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
-    position: absolute; }
+    position: absolute;
+    z-index: 10;
+    transition: all .2s; }
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.6rem;
+  padding: 2.4rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .2s; }
+  .feature-box-icon {
+    font-size: 7rem;
+    margin-bottom: .5rem;
+    color: #55c57e;
+    display: inline-block;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent; }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
 
 #navigation {
   background: transparent;
