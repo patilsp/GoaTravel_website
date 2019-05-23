@@ -51,6 +51,16 @@
         animation: moveInBottom .5s ease-out .75;
         animation-fill-mode: backwards;
     }
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        text-align: center;
+    
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+    
     
     
 }
@@ -78,7 +88,6 @@
         transform: translateY(0);
     }
 }
-
 
 
 
