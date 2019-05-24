@@ -13,6 +13,7 @@
     &:hover{
         transform: translateY(-3px); 
         box-shadow: 0 1rem 2rem rgba($color-white,.2);
+        color: #f7f7f7;
         
         &::after{
             transform: scaleX(1.2) scaleY(1.4);
@@ -55,11 +56,25 @@
         background-color: $color-primary;
         color: $color-white;
         text-align: center;
+        font-size: 2rem;
+        border-radius: 2rem;
     
         &::after {
             background-color: $color-primary;
         }
     }
+    &--sbt{
+        background-color: $color-primary;
+        color: $color-white;
+        text-align: center;
+        font-size: 2rem;
+        border-radius: 2rem;
+        width: 50%;
+        text-decoration: none;
+        text-transform: uppercase;
+
+    }
+    
     
     
     
